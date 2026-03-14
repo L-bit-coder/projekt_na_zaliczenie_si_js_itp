@@ -1,0 +1,73 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background: red;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+section.cofnij button.cofnij{
+  background: linear-gradient(135deg, #ff3b3b, #ff0000);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+section.cofnij button.cofnij:hover {
+  background: linear-gradient(135deg, #ff6b6b, #ff1a1a);
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+p{
+    max-width: 500px;
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow:0 0 10px #333;
+    border-radius: 10%;
+}
