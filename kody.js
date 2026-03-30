@@ -37,16 +37,9 @@ cards.forEach((card) => {
 
 // SCROLL reaguje na scroll zmieniajac kolor tłą napisu na gorze
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
+  if (window.scrollY > 30) {
     header.style.background = "#ff0000";
   } else {
     header.style.background = "#cc0000";
   }
-});
-
-// AUTO ZMIANA KART (setInterval)
-setInterval(() => {
-  const randomCard = cards[Math.floor(Math.random() * cards.length)];
-
-  randomCard.classList.add("highlight");
 });
