@@ -35,15 +35,6 @@ cards.forEach((card) => {
   });
 });
 
-// KEYBOARD (keydown) reaguje na klikniecie przesuwajac okienka o 5 stopni
-document.addEventListener("keydown", (e) => {
-  if (e.key === "r") {
-    cards.forEach((card) => {
-      card.style.transform = `rotate(${Math.random() * 10 - 5}deg)`; // transform ✔
-    });
-  }
-});
-
 // SCROLL reaguje na scroll zmieniajac kolor tłą napisu na gorze
 window.addEventListener("scroll", () => {
   if (window.scrollY > 50) {
